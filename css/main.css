@@ -52,16 +52,35 @@ span.logo {
     padding-left: 0;
     padding-right: 0;
         } 
-h2.login{
+h2.login > titulo{
     font-size: 1.89em;
     font-weight: 300;
     height: 30px;
     line-height: 33px;
         }
+h4.list-group-item-heading{
+    font-size: 1.2em;
+    font-weight: 300;
+    height: 30px;
+    line-height: 33px;
+        }
+.list-group{
+    padding-top:20px;
+}
+a.list-group-item:hover, alist-group-item:focus{
+    background-color: #EBEBDC;
+}
 ul.unstyled, ol.unstyled {
     list-style: none outside none;
     margin-left: 0;
 }
+a:hover,
+a:focus{
+    color: #777777;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);    
+    text-decoration:none;
+}
+
 ul, ol {
     margin: 0 0 10px 25px;
     padding: 0;
